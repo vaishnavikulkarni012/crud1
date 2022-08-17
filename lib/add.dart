@@ -11,12 +11,12 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-class addnote extends StatefulWidget {
+class add extends StatefulWidget {
   @override
-  _addnoteState createState() => _addnoteState();
+  _addState createState() => _addState();
 }
 
-class _addnoteState extends State<addnote> {
+class _addState extends State<add> {
   late String imageUrl;
   TextEditingController second = TextEditingController();
 
